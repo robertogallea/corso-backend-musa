@@ -38,3 +38,12 @@
      - Tipologia (indicizzati, associativi, multi-dimensionali)
      - Funzioni sugli array
 - Esercitazioni
+
+## Giorno 4 - 11/04/2024
+
+- Inclusione di file esterni
+- Funzioni
+  - Definizione di funzioni
+  - Parametri e valori di ritorno
+  - Funzioni anonime
+  - Scope delle variabili (locale, globale, static)

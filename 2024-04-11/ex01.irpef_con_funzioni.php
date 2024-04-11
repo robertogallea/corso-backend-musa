@@ -1,6 +1,7 @@
 <?php
 
 /*
+ * UTILIZZANDO LE FUNZIONI:
  * 
  * Scrivere un programma che dato un reddito, ne calcoli l'IRPEF sulla base degli scaglioni previsti dalla legge:
  * 
