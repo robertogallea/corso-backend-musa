@@ -365,3 +365,24 @@ var_dump($ucNames);
 
 $rNames = array_map(fn($name) => strrev($name), $names);
 var_dump($rNames);
+
+
+
+// inizializzazione di un array
+
+// mono-dimensionale
+$array = array_fill(0, 4, 0);
+// crea un vettore di 0
+// | 0 0 0 0 |
+var_dump($array);
+
+$array2 = array_fill(0, 3, $array);
+var_dump($array2);
+
+$array2 = array_fill(0, 3, array_fill(0, 4, 0));
+
+/*
+| 0 0 0 0 |
+| 0 0 0 0 |
+| 0 0 0 0 |
+*/
