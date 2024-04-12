@@ -1,0 +1,6 @@
+id,name,qty,price
+1,'Maglietta',10,12.5
+2,'Pantaloni',5,41.75
+3,'Felpa',8,60
+4,'Scarpe',7,65
+5,'Calze',9,8
