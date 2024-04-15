@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * 
 Scrivere un programma che effettui le seguenti operazioni:
 
@@ -36,3 +36,77 @@ Nota: la prima riga corrisponde alle chiavi di ciascuna riga dell'array
   maggiore di 5.
 
  */
+
+
+ function readFromCsvFile(string $filename): array
+ {
+     $fp = fopen($filename, 'r');
+ 
+     $data = [];
+ 
+     $cols = fgetcsv($fp);
+     while (($row = fgetcsv($fp, null, ',', "'")) !== false) {
+         $data[] = $row;
+     }
+ 
+ 
+     $products = array_map(fn($item) => array_combine($cols, $item), $data);
+ 
+     $products = array_map(function ($item) {
+         $item['name'] = strtoupper($item['name']);
+         $item['hash'] = md5($item['id'] . $item['name']);
+         $item['available'] = match ((int)$item['qty']) {
+             0 => 'Esaurito',
+             1, 2, 3, 4, 5 => 'Scarsa',
+             default => 'Disponibile',
+         };
+         return $item;
+     }, $products);
+ 
+     $cols[] = 'hash';
+     $cols[] = 'available';
+ 
+     return [$products, $cols];
+ }
+ 
+ list($products, $cols) = readFromCsvFile('ex01_data.txt')
+ 
+ ?>
+ <html>
+ <head>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+ </head>
+ <body>
+ <table class="table table-striped">
+     <thead class="thead-dark">
+     <tr>
+         <?php
+         foreach ($cols as $label => $header) {
+             ?>
+             <th scope="col"><?php echo htmlentities($header) ?></th>
+             <?php
+         }
+         ?>
+     </tr>
+     </thead>
+     <tbody>
+     <?php
+     foreach ($products as $product) {
+         ?>
+         <tr>
+            <?php
+            foreach ($product as $label => $value) {
+            ?>
+                 <th><?php echo htmlentities($value) ?></th>
+            <?php
+            }
+            ?>
+         </tr>
+         <?php
+     }
+     ?>
+     </tbody>
+ </table>
+ </body>
+ </html>
