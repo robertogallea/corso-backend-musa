@@ -10,4 +10,9 @@ Prevedere le seguenti funzionalità:
   header('Location: login.php');
 - Pagina di logout che termina la sessione dell'utente e lo "slogga" dal sistema. Dopo il logout rimandare l'utente al form di login
 
+
+
+echo md5('password') . "\n";
+echo md5('password2');
+
 */
