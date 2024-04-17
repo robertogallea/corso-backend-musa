@@ -47,3 +47,36 @@
   - Parametri e valori di ritorno
   - Funzioni anonime
   - Scope delle variabili (locale, globale, static)
+
+## Giorno 5 - 12/04/2024
+
+- Funzioni per le stringhe
+- Gestione file
+    - Lettura
+    - Scrittura
+- Esercitazioni
+
+## Giorno 6 - 15/04/2024
+
+- Gestione delle date
+- Elaborazione di dati da form HTML
+    - Variabili GET
+    - Variabili POST
+    - Controllo dei dati
+- Sessioni
+- Invio email
+- Esercitazioni
+
+## Giorno 7 - 16/04/2024
+
+- Programmazione a oggetti
+    - Oggetti e classi
+    - Definizione classi
+    - Instanziazione oggetti
+    - Proprietà e metodi
+      Ereditarietà
+    - Subclassing
+    - Interfacce
+    - Traits
+- Costruttori e distruttori
+- Esercitazioni
