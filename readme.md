@@ -1,6 +1,8 @@
 # Repository del corso web backend developer di Musa Formazione
 
-## Giorno 1 - 08/04/2024
+## Modulo 1 - PHP
+
+### Giorno 1 - 08/04/2024
 
 - Presenzazione del docente
 - Presentazione del corso
@@ -17,7 +19,7 @@
 - PHP e HTML
 - Esercitazioni
 
-## Giorno 2 - 09/04/2024
+### Giorno 2 - 09/04/2024
 
 - Gestire l'output degli script
 - Input da utente
@@ -32,14 +34,14 @@
     - BREAK e CONTINUE
 - Esercitazioni
 
-## Giorno 3 - 10/04/2024
+### Giorno 3 - 10/04/2024
 
 - Gestione array
      - Tipologia (indicizzati, associativi, multi-dimensionali)
      - Funzioni sugli array
 - Esercitazioni
 
-## Giorno 4 - 11/04/2024
+### Giorno 4 - 11/04/2024
 
 - Inclusione di file esterni
 - Funzioni
@@ -48,7 +50,7 @@
   - Funzioni anonime
   - Scope delle variabili (locale, globale, static)
 
-## Giorno 5 - 12/04/2024
+### Giorno 5 - 12/04/2024
 
 - Funzioni per le stringhe
 - Gestione file
@@ -56,7 +58,7 @@
     - Scrittura
 - Esercitazioni
 
-## Giorno 6 - 15/04/2024
+### Giorno 6 - 15/04/2024
 
 - Gestione delle date
 - Elaborazione di dati da form HTML
@@ -67,7 +69,7 @@
 - Invio email
 - Esercitazioni
 
-## Giorno 7 - 16/04/2024
+### Giorno 7 - 16/04/2024
 
 - Programmazione a oggetti
     - Oggetti e classi
