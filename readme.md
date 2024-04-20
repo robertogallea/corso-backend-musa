@@ -82,3 +82,65 @@
     - Traits
 - Costruttori e distruttori
 - Esercitazioni
+
+
+## Modulo 2 - MySQL
+
+### Giorno 8 - 17/04/2024
+
+- Configurazione ambiente MySQL
+  - Installazione MySQL
+  - Installazione MySQL Workbench
+  - Connessione a MySQL con MySQL Workbench
+- Gestione utenti
+  - Creazione utenti
+  - Privilegi di accesso
+- Data Definition Language (DDL)
+  - Creazione/Cancellazione/Impostazione database
+  - Creazione tabelle
+  - Modifica tabelle
+  - Cancellazione tabelle
+- Data Manipulation Language (DML)
+  - Inserimento record
+  - Cancellazione record
+  - Modifica Record
+  - Svuotamento tabelle
+- Esercitazioni
+
+
+### Giorno 9 - 18/04/2024
+
+- Query su più tabelle
+  - Prodotto cartesiano
+  - WHERE condition
+  - JOIN (INNER, LEFT, RIGHT, CROSS)
+- Relazioni fra tabelle
+  - Tipologie (1:1), (1:M), (M:M)
+  - JOIN (INNER, LEFT, RIGHT, CROSS)
+  - Vincoli di integrità referenziale
+  - Azioni su cancellazione e modifica
+- Database di esempio
+  - Installazione
+  - Analisi
+- Query di selezione
+  - Operatori di proiezione 
+  - Operatori di selezione
+  - Ordinamenti
+  - Raggruppamenti, funzioni di gruppo e filtri di gruppo
+  - Subquery
+  - Operatori insiemistici su risultati di selezione
+- Esercitazioni
+
+
+### Giorno 10 - 19/04/2024
+
+- Gestione Indici
+- Viste
+- Funzioni di utilità
+- Tabelle temporanee
+- Variabili globali e di sessione
+- Prepared statements
+- Transazioni
+- Triggers
+- Stored functions and procedures
+- Esercitazioni
