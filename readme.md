@@ -144,3 +144,12 @@
 - Triggers
 - Stored functions and procedures
 - Esercitazioni
+
+### Giorno 11 - 29/04/2024
+
+- Accesso a MySQL con PHP
+  - Abilitazione estensione MySQLi
+  - Abilitazione estensione PDO
+- Utilizzo di MySQLi
+- Utilizzo di PDO
+- Esercitazioni
